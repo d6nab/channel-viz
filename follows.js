@@ -12,9 +12,9 @@
 		hideForm		= 0;
 	*/
 
-	var defaultKey		= '', // Unique master Xively API key to be used as a default
-		defaultFeeds	= [], // Comma separated array of Xively Feed ID numbers
-		applicationName	= '', // Replaces Xively logo in the header
+	var defaultKey		= 'hmI1b19hM1yQCwrNODVAVvthcGdx43y2NAh6qz1Y03xOCwIp', // Unique master Xively API key to be used as a default
+		defaultFeeds	= [1083587047], // Comma separated array of Xively Feed ID numbers
+		applicationName	= 'AEON HEMv2 + Thermostats', // Replaces Xively logo in the header
 		dataDuration	= '', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
 		dataInterval	= 0, // Default interval for data to be displayed (in seconds)
 		dataColor		= '', // CSS HEX value of color to represent data (omit leading #)
