@@ -148,7 +148,7 @@
 										element: document.querySelector('#graph-' + feedId + '-' + datastream.id),
 										width: 600,
 										height: 200,
-										renderer: 'area',
+										renderer: 'line',
 										stroke: true,
 											color: 'rgba(192,132,255,0.3)',
 											stroke: 'rgba(0,0,0,0.15)',
