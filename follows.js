@@ -150,6 +150,8 @@
 										height: 200,
 										renderer: 'area',
 										stroke: true,
+											color: 'rgba(192,132,255,0.3)',
+											stroke: 'rgba(0,0,0,0.15)',
 										min: parseFloat(datastream.min_value) - .25*(parseFloat(datastream.max_value) - parseFloat(datastream.min_value)),
 										max: parseFloat(datastream.max_value) + .25*(parseFloat(datastream.max_value) - parseFloat(datastream.min_value)),
 										padding: {
